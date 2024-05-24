@@ -32,8 +32,25 @@ import './App.css'
   )
 
 }*/
+/*const Hello = () => {
+  return (
+    <div>
+      <p>Hello world</p>
+    </div>
+  )
+}
 
-const App = () => {
+const Apps = () => {
+  return (
+    <div>
+      <h1>Greetings</h1>
+
+      <Hello />
+    </div>
+  )
+}*/
+
+/*const App = () => {
   const now = new Date()
   const a = 10
   const b = 20
@@ -45,6 +62,42 @@ const App = () => {
       <p>
         {a} plus {b} is {a + b}
       </p>
+    </div>
+  )
+}*/
+
+/*const App = () => {
+  const now = new Date()
+  const a = 10
+  const b = 20
+  return React.createElement(
+    'div',
+    null,
+    React.createElement(
+      'p', null, 'Hello world, it is ', now.toString()
+    ),
+    React.createElement(
+      'p', null, a, ' plus ', b, ' is ', a + b
+    )
+  )
+}*/
+
+const Hello = () => {
+  return (
+    <div>
+      <p>Hello world</p>
+    </div>
+  )
+}
+
+const App = () => {
+  return (
+    <div>
+      <h1>Greetings</h1>
+
+      <Hello />
+      <Hello />
+      <Hello />
     </div>
   )
 }
